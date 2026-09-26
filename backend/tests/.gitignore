@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build files
+frontend/dist/
+backend/coverage/
+coverage/
+
+# Logs
+npm-debug.log*
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+# Protect secrets
+backend/.env
+frontend/.env
+.env
+.env.*
+!.env.example
